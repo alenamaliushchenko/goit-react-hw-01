@@ -1,0 +1,26 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.tableHead {
+    background-color: rgb(15, 17, 17);
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+}
+.tableBody {
+    font-size: 15px;
+    font-weight: 100;
+}
+tr {
+    height: 40px;
+}
+tr:nth-child(even) {
+    background-color: rgb(175, 175, 170);
+}
+th, td {
+    border: 1px solid black;
+}
+.table tbody tr:hover {
+    background-color: #7ba7a1;
+}
