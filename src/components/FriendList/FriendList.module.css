@@ -12,7 +12,7 @@
     
 }
 .friendListItem {
-    border: 2px solid red;
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 10px;
     width: 100px;
     padding: 20px;
