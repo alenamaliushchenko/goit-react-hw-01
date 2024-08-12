@@ -1,0 +1,29 @@
+.friendsContainer {
+    display: flex;
+    
+}
+.friendList {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 10px;
+    border-radius: 20px;
+
+    
+}
+.friendListItem {
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 100px;
+    padding: 20px;
+    font-size: 20px;    
+}
+.friendName {
+    font-weight: 600;
+}
+.isOnline {
+    color: green;
+}
+.isOffline {
+    color: red;
+}
