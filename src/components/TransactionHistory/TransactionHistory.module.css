@@ -1,0 +1,33 @@
+.table {
+    width: 100%;
+    max-width: 600px;
+    margin: 40px auto;
+    border-collapse: collapse;
+    font-size: 16px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+.tableHead {
+    background-color: #4CAF50;
+    color: white;
+    text-transform: uppercase;
+}
+.tableHead th {
+    padding: 12px;
+    border: 2px solid black;
+}
+.tableBody tr{
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+}
+.tableBody tr:nth-child(even) {
+    background-color: #e6e6e6;
+}
+.tableBody tr:hover {
+    background-color: #d1d1d1;
+}
+.table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
