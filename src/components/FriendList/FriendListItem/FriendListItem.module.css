@@ -1,0 +1,23 @@
+.itemContainer {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.friendName {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(73, 43, 226);
+}
+
+.online {
+    color: green;
+    font-weight: bold;
+}
+
+.offline {
+    color: red;
+    font-weight: bold;
+}
